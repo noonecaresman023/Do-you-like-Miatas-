@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Button Interaction | JS Practice</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>Button Interaction Practice</h1>
+      <img class="miatas-img" src="./Miatas.png" alt="Miatas" />
+      <h2>Do you like Miatas?</h2>
+      <div class="vote-container">
+        <p>Yay: <span id="yay-count">0</span></p> 
+        <p>Nay: <span id="nay-count">0</span></p> 
+      </div>
+      <div class="btn-container">
+        <button class="yay-btn" onclick="yayVote()">Yay!</button>
+        <button class="nay-btn" onclick=" nayVote()">Nay :(</button>
+      </div>
+    </main>
+    <script src="./javascript/index.js"></script>
+  </body>
+</html>
