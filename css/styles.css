@@ -8,6 +8,7 @@ body {
     min-height: 100vh;
     background-color: rgb(153, 170, 254);
     text-align: center;
+    overflow: hidden;
 }
 
 h1 {
